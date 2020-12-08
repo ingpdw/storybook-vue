@@ -2,8 +2,8 @@
   <div @click="onEditor" class="m-0">
     <Header/>
     <Alert title="편집" description="에디터의 텍스트 선택 시 수정이 가능합니다." />
-
-    <div class="bg-gray-100 flex w-screen py-10 justify-center items-center">
+    <div class="flex flex-wrap bg-gray-100 py-10 justify-center">
+    
       <div class="flex-auto px-8">
         <div class="flex items-center my-10 w-full mx-auto rounded-lg bg-white shadow p-5 text-gray-800">
           <div ref="editor" v-html="htmlString"></div>

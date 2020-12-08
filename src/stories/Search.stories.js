@@ -2,7 +2,7 @@ import MySearch from '../components/Search/index.vue';
 import { action } from '@storybook/addon-actions';
 
 export default {
-  title: 'ContentsEditor/Search',
+  title: 'ContentsEditor/ui/Search',
   component: MySearch,
 };
 

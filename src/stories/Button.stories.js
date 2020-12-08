@@ -2,7 +2,7 @@ import MyButton from '../components/Button/index.vue';
 import { action } from '@storybook/addon-actions';
 
 export default {
-  title: 'ContentsEditor/Button',
+  title: 'ContentsEditor/ui/Button',
   component: MyButton,
 };
 

@@ -1,7 +1,7 @@
 import MyAlert from '@/components/Alert/index.vue';
 
 export default {
-  title: 'ContentsEditor/Alert',
+  title: 'ContentsEditor/ui/Alert',
   component: MyAlert,
 };
 

@@ -1,7 +1,7 @@
 import MyHeader from '@/components/Header/index.vue';
 
 export default {
-  title: 'ContentsEditor/Header',
+  title: 'ContentsEditor/ui/Header',
   component: MyHeader,
 };
 
