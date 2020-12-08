@@ -9,7 +9,8 @@
     </div>
     <input
       class="w-full bg-dim-400 border-dim-400 text-gray-900 focus:bg-dim-900 focus:outline-none focus:border focus:border-blue-200 font-normal h-9 flex items-center pl-12 text-sm rounded-full border shadow"
-      placeholder="Search template"
+      :placeholder="placeholder"
+      @keyup.enter="onSubmit"
     />
   </div>
 </template>
@@ -20,6 +21,12 @@ export default {
   props: {
     placeholder: String,
   },
+  methods: {
+    onSubmit(evt) {
+      const text = evt.target.value;
+      this.$emit('search', text);
+    }
+  }
 }
 </script>
 

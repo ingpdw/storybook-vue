@@ -1,4 +1,4 @@
-import MyHeader from '../components/Header/index.vue';
+import MyHeader from '@/components/Header/index.vue';
 
 export default {
   title: 'ContentsEditor/Header',

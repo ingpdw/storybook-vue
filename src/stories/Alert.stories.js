@@ -1,4 +1,4 @@
-import MyAlert from '../components/Alert/index.vue';
+import MyAlert from '@/components/Alert/index.vue';
 
 export default {
   title: 'ContentsEditor/Alert',
@@ -14,6 +14,10 @@ const Template = (args, { argTypes }) => ({
 });
 
 export const Default = Template.bind({});
+Default.args = {
+  title: 'title',
+  description: 'description',
+};
 
 export const EditorAlert = Template.bind({});
 EditorAlert.args = {
